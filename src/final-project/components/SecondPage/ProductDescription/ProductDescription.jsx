@@ -1,7 +1,7 @@
 import * as React from 'react';
 import '../../../final-project.scss';
 import './ProductDescription.scss';
-import './DynamicText.jsx';
+
 
 export class ProductDescription extends React.Component {
 

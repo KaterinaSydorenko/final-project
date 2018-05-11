@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: local("SF Pro Display"), url(../assets/fonts/sf-pro-display_regular.woff2) format("woff2");
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: local("SF Pro Display"), url(../assets/fonts/sf-pro-display_light.woff2) format("woff2");
+  font-weight: 200; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: local("SF Pro Display"), url(../assets/fonts/sf-pro-display_semibold.woff2) format("woff2");
+  font-weight: 600; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  min-height: 100%;
+  height: 100%;
+  color: white; }
+
+body, h1, h2, h3, h4, ul, ol, p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+body {
+  background-image: url(../assets/images/pattern.jpg); }
+
+.page-wrapper {
+  width: 992px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%); }
+  @media (max-width: 767.68px) {
+    .page-wrapper {
+      width: 100vw;
+      height: 100vh; } }
+
+.content-header {
+  padding: 2rem 0.5rem; }
+
+.content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.block-content {
+  background-repeat: no-repeat;
+  height: 150px;
+  background-position: center; }
+
+.block-content {
+  padding: 0.5rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+
+.box1 {
+  background-color: #3387ea;
+  background-image: url(../assets/images/home.png); }
+
+.box2 {
+  background-color: #f9be3e;
+  background-image: url(../assets/images/contact.png); }
+
+.box3 {
+  background-color: #d3573e;
+  background-image: url(../assets/images/hire.png); }
+
+.box4 {
+  background-color: #59b0e2;
+  background-image: url(../assets/images/photos.png); }
+
+.box5 {
+  background-color: #33af95;
+  background-image: url(../assets/images/about.png); }
+
+.box6 {
+  background-color: #86a73f;
+  background-image: url(../assets/images/about.png); }
+
+.box7 {
+  background-image: url(../assets/images/blog-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.box7-1 {
+  background-color: black;
+  height: 150px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.box7-1 > p, h2 {
+  padding: 0.5rem; }
+
+.box8 {
+  background-color: #7e5b8c;
+  background-image: url(../assets/images/contact.png); }
+
+.block-1 {
+  -ms-flex: 0 0 16.67%;
+      flex: 0 0 16.67%;
+  padding: 0.5rem; }
+  @media (max-width: 767.68px) {
+    .block-1 {
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%; } }
+
+.block-2 {
+  -ms-flex: 0 0 33.32%;
+      flex: 0 0 33.32%;
+  padding: 0.5rem; }
+  @media (max-width: 767.68px) {
+    .block-2 {
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%; } }
+
+.block-3 {
+  -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+  padding: 0.5rem; }
+  @media (max-width: 767.68px) {
+    .block-3 {
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%; } }
+
+.block-4 {
+  -ms-flex: 0 0 70%;
+      flex: 0 0 70%; }
+
+.block-5 {
+  -ms-flex: 0 0 30%;
+      flex: 0 0 30%; }
+  @media (max-width: 767.68px) {
+    .block-5 {
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%; } }
+
+.block-6 {
+  -ms-flex: 0 0 16.67%;
+      flex: 0 0 16.67%;
+  padding: 0.5rem; }
+  @media (max-width: 767.68px) {
+    .block-6 {
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%; } }
