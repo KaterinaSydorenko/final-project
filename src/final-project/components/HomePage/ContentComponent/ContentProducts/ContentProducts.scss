@@ -1,0 +1,102 @@
+.content-wrapper {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 8px -8px #222;
+    .block-content {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 350px;
+    }
+    .btn {
+      padding: 1rem 2rem;
+      margin-left: 2rem;
+      background: none;
+      border: 1px solid black;
+      &:hover {
+        color: white;
+        background: rgb(0, 200, 200);
+        border: none;
+      }
+    }
+    .text-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 60%;
+      height: 70%;
+      padding: 3rem 2rem 2rem;
+    }
+    .block-1 {
+      flex: 0 0 25%;
+      padding: 0.25rem;
+      .box1 {
+        background-image: url("../../../../assets/images/item-1.png");
+      }
+      .box2 {
+        background-image: url("../../../../assets/images/photo.png");
+      }
+      .box4 {
+        background-image: url("../../../../assets/images/item-4.png");
+      }
+      .box5 {
+        background-image: url("../../../../assets/images/item-5.png");
+      }
+      .box6 {
+        background-image: url("../../../../assets/images/item-2.png");
+      }
+      .box7 {
+        background-image: url("../../../../assets/images/item-7.png");
+      }
+      .box9 {
+        background-image: url("../../../../assets/images/item-9.png");
+      }
+    }
+    .block-2 {
+      flex: 0 0 50%;
+      padding: 0.25rem;
+      .box3 {
+        background-image: url("../../../../assets/images/item-3.png");
+        background-size: auto;
+      }
+    }
+    .block-3 {
+      flex: 0 0 75%;
+      padding: 0.25rem;
+      .box8 {
+        background-image: url("../../../../assets/images/item-6.png");
+      }
+    }
+    .text-content__second {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 50%;
+      height: 80%;
+      padding: 3rem 2rem 2rem;
+    }
+  }
+}
+
+.block-3:hover,
+.block-2:hover {
+  box-shadow: 2px 2px 4px 2px gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 360px;
+    .box8 {
+      display: none;
+    }
+  }
+}

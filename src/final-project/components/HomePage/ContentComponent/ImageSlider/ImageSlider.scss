@@ -1,0 +1,49 @@
+.template-content {
+  padding: 3rem 0 6rem;
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    .container-content {
+      flex: 0 0 33.667%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 1rem;
+      .text-content{
+        float: right;
+        width: 55%;
+        text-align: right;
+        padding: 6rem 3rem;
+        p{
+          padding: 2rem 0;
+        }
+      }
+      .btn{
+        padding: 1rem 2rem;
+        background: none;
+        border: 1px solid black;
+        &:hover{
+          color: white;
+          background: rgb(0, 200, 200);
+          border: none;
+        }
+      }
+    }
+    .template-1 {
+      background-image: url("../../../../../../assets/images/lookbook-1.png");
+
+    }
+    .template-2 {
+      background-image: url("../../../../../../assets/images/lookbook-2.png");
+    }
+    .template-3 {
+      background-image: url("../../../../../../assets/images/lookbook-3.png");
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .template-content{
+    display: none;
+  }
+}

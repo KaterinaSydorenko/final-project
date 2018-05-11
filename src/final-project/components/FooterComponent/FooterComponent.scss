@@ -1,0 +1,98 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(248, 248, 248);
+  padding-bottom: 3rem;
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    ul {
+      padding: 4rem 3rem;
+      li:first-child {
+        font-weight: bold;
+        padding-bottom: 2rem;
+      }
+      li {
+        padding-bottom: 0.75rem;
+      }
+    }
+  }
+  .footer-block {
+    display: flex;
+    justify-content: center;
+    &__info {
+      background: rgb(51, 51, 51);
+      color: white;
+      padding: 4rem 9.75rem;
+      margin-right: 1rem;
+    }
+    .footer-social {
+      background: rgb(0, 200, 200);
+      justify-content: center;
+      padding: 5rem 9.75rem 0;
+      display: flex;
+      li {
+        padding-right: 2rem;
+      }
+      .social-facebook {
+        padding: 1rem;
+        background-size: contain;
+        background-image: url("./../../assets/images/iconmonstr-facebook-1-240.png");
+      }
+      .social-twitter {
+        padding: 1rem;
+        background-size: contain;
+        background-image: url("./../../assets/images/iconmonstr-twitter-1-240.png");
+      }
+      .social-instagram {
+        padding: 1rem;
+        background-size: contain;
+        background-image: url("./../../assets/images/iconmonstr-instagram-6-240.png");
+      }
+      .social-pinterest {
+        padding: 1rem;
+        background-size: contain;
+        background-image: url("./../../assets/images/iconmonstr-pinterest-1-240.png");
+      }
+    }
+    .disactive{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.75rem;
+    .footer-content {
+      display: none;
+    }
+    .footer-block {
+      display: flex;
+      flex-direction: column;
+      &__info {
+        display: none;
+      }
+      .footer-social {
+        display: flex;
+        flex: 0 0 100%;
+        padding: 2.5rem 0;
+      }
+      .mobile-footer__info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.75rem 0.5rem 0;
+        li {
+          padding: 0.5rem;
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+

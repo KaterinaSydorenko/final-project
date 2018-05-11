@@ -1,0 +1,55 @@
+.mob-nav{
+  position: fixed;
+  background: rgb(0, 200, 200);
+  padding: 1.5rem;
+  left: 0;
+  width: 20rem;
+  opacity: 0.85;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  .btn-toggle {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 1rem;
+    visibility: visible;
+  }
+  .btn-toggle__line {
+    background: white;
+    height: 0.3rem;
+    width: 2.5rem;
+    margin-top: 0.35rem;
+    display: block;
+  }
+  .btn-toggle__line:nth-child(1) {
+    transform: translateY(9px) rotateZ(45deg);
+  }
+
+  .btn-toggle__line:nth-child(3) {
+    transform: translateY(-9px) rotateZ(-45deg);
+    color: red;
+  }
+  .btn-toggle__line:nth-child(2) {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 0.75rem;
+    li {
+      padding: 1.25rem 0;
+    }
+  }
+  .search-form {
+    padding-top: 1.5rem;
+    .search-form__content {
+      padding: 1rem 1.5rem;
+    }
+  }
+}
