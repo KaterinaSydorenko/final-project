@@ -60,20 +60,20 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 15);
+/******/ 	return __webpack_require__(__webpack_require__.s = 19);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 15:
+/***/ 19:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(16);
+module.exports = __webpack_require__(20);
 
 
 /***/ }),
 
-/***/ 16:
+/***/ 20:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -81,7 +81,7 @@ module.exports = __webpack_require__(16);
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-__webpack_require__(17);
+__webpack_require__(21);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -163,7 +163,7 @@ var toggleLamp = new ToggleLamp(document.querySelector('#appLampContainer'));
 
 /***/ }),
 
-/***/ 17:
+/***/ 21:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

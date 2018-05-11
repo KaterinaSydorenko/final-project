@@ -60,18 +60,26 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 13);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 10:
+/***/ 13:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(14);
+
+
+/***/ }),
+
+/***/ 14:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(11);
+__webpack_require__(15);
 
 var accordionElement = document.querySelectorAll('.accordion');
 function accordion(AccordionContainer) {
@@ -123,18 +131,10 @@ btn.addEventListener('click', function () {
 
 /***/ }),
 
-/***/ 11:
+/***/ 15:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 9:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(10);
-
 
 /***/ })
 
