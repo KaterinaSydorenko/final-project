@@ -1,0 +1,13 @@
+#calculator {
+  width: 250px;
+  margin: 0 auto;
+  border-collapse: collapse; }
+
+td,
+tr {
+  border: 1px solid red;
+  padding: 1rem;
+  text-align: center; }
+
+td {
+  background: gainsboro; }

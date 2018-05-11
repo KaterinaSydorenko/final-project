@@ -1,0 +1,33 @@
+.wrapper {
+  margin: 0 auto;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(222, 168, 220, 0.69);
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .toggle__lamp {
+      width: 50px;
+      border: 1px solid black;
+      margin: 50px;
+      text-align: center;
+      padding: 1rem;
+      background: red;
+      &_active {
+        background: green;
+      }
+    }
+  }
+  .add__toggle {
+    position: fixed;
+    margin: 0.5rem;
+    width: 40px;
+    padding: 0.5rem;
+    background: #70536e;
+    text-align: center;
+  }
+}
+
+

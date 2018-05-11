@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: Arial Helvetica sans-serif; }
+
+.input-form {
+  margin: 0 auto;
+  max-width: 980px; }
+
+.name-field,
+.comment-field,
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px; }
+
+.submit-button {
+  background-color: #4c9eea;
+  color: white;
+  font-weight: bold; }
+
+.input-form-name,
+.input-form-comment,
+.input-form-button {
+  padding: 0.5rem; }
+
+.text,
+.text-name {
+  padding: 0.5rem;
+  font-size: 16px; }
+
+.text-name {
+  color: #4c9eea;
+  font-weight: bold; }
+
+.bottom-line {
+  border-bottom: 2px solid grey;
+  text-align: right; }

@@ -1,0 +1,31 @@
+.wrapper {
+  margin: 0 auto;
+  width: 920px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: rgba(222, 168, 220, 0.69); }
+  .wrapper .box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .wrapper .box .toggle__lamp {
+      width: 50px;
+      border: 1px solid black;
+      margin: 50px;
+      text-align: center;
+      padding: 1rem;
+      background: red; }
+      .wrapper .box .toggle__lamp_active {
+        background: green; }
+  .wrapper .add__toggle {
+    position: fixed;
+    margin: 0.5rem;
+    width: 40px;
+    padding: 0.5rem;
+    background: #70536e;
+    text-align: center; }

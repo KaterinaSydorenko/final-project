@@ -1,0 +1,121 @@
+$sm: 767.68px;
+
+body {
+  background-image: url("../../assets/images/pattern.jpg");
+}
+.page-wrapper {
+  width: 992px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  @media (max-width: $sm) {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+.content-header {
+  padding: 2rem 0.5rem;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.block-content {
+  background-repeat: no-repeat;
+  height: 150px;
+  background-position: center;
+}
+.block-content {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.box1 {
+  background-color: #3387ea;
+  background-image: url("../../assets/images/home.png");
+}
+.box2 {
+  background-color: #f9be3e;
+  background-image: url("../../assets/images/contact.png");
+}
+.box3 {
+  background-color: #d3573e;
+  background-image: url("../../assets/images/hire.png");
+}
+.box4 {
+  background-color: #59b0e2;
+  background-image: url("../../assets/images/photos.png");
+}
+.box5 {
+  background-color: #33af95;
+  background-image: url("../../assets/images/about.png");
+}
+.box6 {
+  background-color: #86a73f;
+  background-image: url("../../assets/images/about.png");
+}
+.box7 {
+  background-image: url("../../assets/images/blog-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box7-1 {
+  background-color: black;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box7-1 > p, h2 {
+  padding: 0.5rem ;
+}
+.box8 {
+  background-color: #7e5b8c;
+  background-image: url("../../assets/images/contact.png");
+}
+.block-1 {
+  flex: 0 0 16.67%;
+  padding: 0.5rem;
+  @media (max-width: $sm) {
+    flex: 0 0 50%;
+  }
+}
+.block-2 {
+  flex: 0 0 33.32%;
+  padding: 0.5rem;
+  @media (max-width: $sm) {
+    flex: 0 0 100%;
+  }
+}
+.block-3 {
+  flex: 0 0 50%;
+  padding: 0.5rem;
+  @media (max-width: $sm) {
+    flex: 0 0 100%;
+  }
+}
+.block-4 {
+  flex: 0 0 70%;
+}
+.block-5 {
+  flex: 0 0 30%;
+  @media (max-width: $sm) {
+    flex: 0 0 30%;
+  }
+}
+.block-6 {
+  flex: 0 0 16.67%;
+  padding: 0.5rem;
+  @media (max-width: $sm) {
+    flex: 0 0 100%;
+  }
+}
+
+
+
+
