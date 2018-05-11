@@ -1,0 +1,73 @@
+.accordion-block {
+  position: relative;
+  width: 500px;
+  margin: 0 auto; }
+  .accordion-block * {
+    box-sizing: border-box;
+    outline: none; }
+  .accordion-block .accordion.active {
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    overflow: visible; }
+  .accordion-block .accordion-menu {
+    padding: 0.75rem;
+    background: #3F51B5;
+    color: #FFFFFF; }
+    .accordion-block .accordion-menu:focus {
+      background: #8496e2; }
+    .accordion-block .accordion-menu__title {
+      float: left; }
+    .accordion-block .accordion-menu-list {
+      float: right;
+      border: none;
+      background: transparent;
+      width: 1rem;
+      height: 1rem;
+      display: block; }
+      .accordion-block .accordion-menu-list__line {
+        background: #FFFFFF;
+        height: 2px;
+        margin-top: 2px;
+        width: 100%;
+        display: block;
+        z-index: 1; }
+  .accordion-block .accordion :after {
+    content: '';
+    display: block;
+    clear: both;
+    width: 100%; }
+  .accordion-block .accordion-description {
+    position: absolute;
+    padding: 0.75rem;
+    color: black;
+    overflow: hidden;
+    -ms-transform: scale(0);
+        transform: scale(0);
+    -ms-transform-origin: top;
+        transform-origin: top;
+    transition: all 0.5s; }
+  .accordion-block .accordion.active .accordion-description {
+    -ms-transform: scale(1);
+        transform: scale(1);
+    overflow: visible;
+    position: relative;
+    background: #E8EAF6;
+    box-shadow: 0 0 7px rgba(2, 2, 2, 0.4); }
+
+.accordion-menu-list__line:nth-child(1) {
+  -ms-transform: translateY(2px) rotate(0deg);
+      transform: translateY(2px) rotate(0deg);
+  transition: all 0.5s; }
+
+.accordion-menu-list__line:nth-child(2) {
+  -ms-transform: translateY(-2px) rotate(90deg);
+      transform: translateY(-2px) rotate(90deg);
+  transition: all 0.5s; }
+
+.active .accordion-menu-list__line:nth-child(1) {
+  -ms-transform: translateY(2px) rotate(135deg);
+      transform: translateY(2px) rotateZ(135deg); }
+
+.active .accordion-menu-list__line:nth-child(2) {
+  -ms-transform: translateY(-2px) rotate(-135deg);
+      transform: translateY(-2px) rotateZ(-135deg); }
