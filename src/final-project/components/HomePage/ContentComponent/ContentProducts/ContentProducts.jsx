@@ -1,4 +1,6 @@
 import * as React from "react";
+import {NavLink} from 'react-router-dom';
+
 import '../../../../final-project.scss'
 import './ContentProducts.scss';
 
@@ -7,7 +9,9 @@ export class ContentProducts extends React.Component {
     render() {
         return <div className={'content'}>
             <div className={'block-1'}>
+                <NavLink  to={'/product'}>
                 <div className={"box1 block-content"}> </div>
+                </NavLink>
             </div>
             <div className={'block-1'}>
                 <div className={"box2 block-content"}> </div>

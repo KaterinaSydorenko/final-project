@@ -1,4 +1,6 @@
 import * as React from "react";
+import {NavLink} from 'react-router-dom';
+
 import '../../final-project.scss';
 import './HeaderComponent.scss';
 import {RegistrationForm} from "../Forms/RegistrationForm.jsx";
@@ -31,6 +33,7 @@ export class HeaderComponent extends React.Component {
     }
 
     mobNavList(){
+
         this.setState((state) => {
             state.navList = !state.navList;
             return state;
@@ -110,6 +113,7 @@ export class HeaderComponent extends React.Component {
                         </div>
                     </div>
                 </div>
+                <NavLink  to={'/'}>
                 <div className={'header-image'}>
                     <div className={'background-image'}> </div>
                     <div className={'background-title'}>
@@ -117,6 +121,7 @@ export class HeaderComponent extends React.Component {
                         <h2>LATEST POSTS - MEN&WOMEN</h2>
                     </div>
                 </div>
+                </NavLink>
             </div>
         </div>
     }

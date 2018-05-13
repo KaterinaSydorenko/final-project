@@ -90,13 +90,15 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 360px;
-    .box8 {
-      display: none;
+  .content-wrapper {
+    width: 100%;
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box8 {
+        display: none;
+      }
     }
   }
 }

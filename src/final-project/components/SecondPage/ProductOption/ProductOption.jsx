@@ -63,6 +63,7 @@ export class ProductOption extends React.Component {
                                 <select className={'options'}>
                                     <option>Select Color</option>
                                     <option>Black</option>
+                                    <option>Black</option>
                                     <option>Red</option>
                                     <option>Green</option>
                                 </select>

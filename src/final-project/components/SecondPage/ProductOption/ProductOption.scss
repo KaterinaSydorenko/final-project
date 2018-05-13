@@ -8,11 +8,12 @@
     .box1-content {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      background-size: contain;
-      background-repeat: no-repeat;
       height: 780px;
       background-image: url("../../../assets/images/default.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      justify-content: center;
       &__element {
         display: flex;
         justify-content: space-between;
@@ -174,7 +175,7 @@
 @media only screen and (max-width: 768px) {
   .product-block-1 {
     display: flex;
-    width: 360px;
+    width: 100%;
     flex-direction: column;
     .box1-product {
       display: flex;
@@ -206,6 +207,7 @@
     }
   }
 }
+
 
 
 

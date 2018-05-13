@@ -1,4 +1,12 @@
 .content-product {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .content-product{
+    width: 90%;
+    overflow-x: hidden;
+  }
 }
